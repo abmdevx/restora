@@ -37,6 +37,6 @@ export function HomePage() {
         <p className="text-sm leading-8 text-stone-500 dark:text-stone-400">Restora gives independent restaurants the clarity and care of a dedicated team, without losing the warmth that makes them special.</p>
       </section>
     </main>
-    <footer className="mx-auto flex w-full max-w-7xl flex-col gap-4 border-t border-stone-200 px-5 py-7 text-xs text-stone-400 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10 dark:border-stone-800"><Logo /><span>© 2024 Restora. Made for memorable moments.</span><span className="uppercase tracking-widest">Good food <b className="text-amber-500">·</b> better moments</span></footer>
+    <footer className="mx-auto flex w-full max-w-7xl flex-col gap-4 border-t border-stone-200 px-5 py-7 text-xs text-stone-400 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10 dark:border-stone-800"><Logo /><span>© 2026 Restora. Made for memorable moments.</span><span className="uppercase tracking-widest">Good food <b className="text-amber-500">·</b> better moments</span></footer>
   </div>
 }
