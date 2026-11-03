@@ -4,6 +4,7 @@ import { CustomerDashboard } from '../components/CustomerDashboard'
 import { InventoryDashboard } from '../components/InventoryDashboard'
 import { MenuDashboard } from '../components/MenuDashboard'
 import { OrderDashboard } from '../components/OrderDashboard'
+import { ReportDashboard } from '../components/ReportDashboard'
 import { useAuth } from '../hooks/useAuth'
 
 export function DashboardPage({ defaultAdminTab = 'tables' }) {
@@ -30,6 +31,8 @@ export function DashboardPage({ defaultAdminTab = 'tables' }) {
         <MenuDashboard user={user} />
       ) : defaultAdminTab === 'inventory' ? (
         <InventoryDashboard user={user} />
+      ) : defaultAdminTab === 'reports' ? (
+        <ReportDashboard user={user} />
       ) : (
         <AdminDashboard user={user} />
       )}

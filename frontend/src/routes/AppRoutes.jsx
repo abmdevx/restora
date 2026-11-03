@@ -18,6 +18,7 @@ export function AppRoutes() {
           <Route path="/orders" element={<DashboardPage defaultAdminTab="orders" />} />
           <Route path="/inventory" element={<DashboardPage defaultAdminTab="inventory" />} />
           <Route path="/menu" element={<DashboardPage defaultAdminTab="menu" />} />
+          <Route path="/reports" element={<DashboardPage defaultAdminTab="reports" />} />
         </Route>
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />

@@ -8,7 +8,7 @@ export function HomePage() {
   return <div className="min-h-screen overflow-hidden bg-[#fcfaf6] text-stone-900 transition-colors dark:bg-[#141210] dark:text-stone-100">
     <PublicHeader />
     <main>
-      <section className="relative mx-auto grid min-h-[680px] w-full max-w-7xl items-center gap-12 px-5 pb-16 pt-16 sm:px-8 lg:grid-cols-[1fr_0.9fr] lg:px-10 lg:pt-20" id="experience">
+      <section className="relative mx-auto grid min-h-170 w-full max-w-7xl items-center gap-12 px-5 pb-16 pt-16 sm:px-8 lg:grid-cols-[1fr_0.9fr] lg:px-10 lg:pt-20" id="experience">
         <div className="relative z-10">
           <p className="mb-6 flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.28em] text-amber-600 dark:text-amber-400"><span className="h-px w-8 bg-current" /> Good food. Better moments.</p>
           <h1 className="max-w-3xl text-5xl font-medium leading-[1.02] tracking-[-0.07em] sm:text-7xl lg:text-[5.6rem]">Make every table feel <span className="font-serif italic text-amber-600 dark:text-amber-400">like home.</span></h1>
