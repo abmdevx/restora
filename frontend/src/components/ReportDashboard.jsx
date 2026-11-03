@@ -84,7 +84,7 @@ export function ReportDashboard() {
               type="date"
               value={rangeStart}
               onChange={(e) => setRangeStart(e.target.value)}
-              className="w-[125px] min-w-0 rounded-lg bg-stone-50 px-2 py-1 text-xs font-medium text-stone-800 outline-hidden dark:bg-stone-800 dark:text-stone-200 sm:w-auto sm:bg-transparent sm:p-0"
+              className="w-31.25 min-w-0 rounded-lg bg-stone-50 px-2 py-1 text-xs font-medium text-stone-800 outline-hidden dark:bg-stone-800 dark:text-stone-200 sm:w-auto sm:bg-transparent sm:p-0"
               aria-label="Start date"
             />
             <span className="text-xs font-bold text-stone-400">→</span>
@@ -92,7 +92,7 @@ export function ReportDashboard() {
               type="date"
               value={rangeEnd}
               onChange={(e) => setRangeEnd(e.target.value)}
-              className="w-[125px] min-w-0 rounded-lg bg-stone-50 px-2 py-1 text-xs font-medium text-stone-800 outline-hidden dark:bg-stone-800 dark:text-stone-200 sm:w-auto sm:bg-transparent sm:p-0"
+              className="w-31.25 min-w-0 rounded-lg bg-stone-50 px-2 py-1 text-xs font-medium text-stone-800 outline-hidden dark:bg-stone-800 dark:text-stone-200 sm:w-auto sm:bg-transparent sm:p-0"
               aria-label="End date"
             />
           </div>
@@ -106,7 +106,7 @@ export function ReportDashboard() {
       </div>
 
       {/* Tab Nav (Mobile Horizontal Scrollable) */}
-      <div className="mb-6 flex gap-1.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="mb-6 flex gap-1.5 overflow-x-auto pb-1 scrollbar-none [&::-webkit-scrollbar]:hidden">
         {[
           { id: 'overview', label: '📈 Overview' },
           { id: 'revenue', label: '💵 Revenue Trends' },

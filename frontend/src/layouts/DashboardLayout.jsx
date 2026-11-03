@@ -253,7 +253,7 @@ export function DashboardLayout() {
 
       {/* ── Mobile Drawer Panel ──────────────────────────────────────────────── */}
       <aside
-        className={`fixed inset-y-0 left-0 z-50 flex h-full max-h-screen w-[270px] max-w-[80vw] flex-col overflow-y-auto bg-white shadow-2xl transition-transform duration-300 ease-out dark:bg-stone-900 sm:hidden ${
+        className={`fixed inset-y-0 left-0 z-50 flex h-full max-h-screen w-67.5 max-w-[80vw] flex-col overflow-y-auto bg-white shadow-2xl transition-transform duration-300 ease-out dark:bg-stone-900 sm:hidden ${
           drawerOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
         role="dialog"
